@@ -6,15 +6,46 @@ Analyzing the relationship between wastewater dumping and seismic activity in th
 
 ---
 ### Getting Started
-#### Dependencies
+
 
 #### Installing
+1. Clone this repository.
 
-#### Executing program
+2. Install the required Python packages:
+```javascript  
+pip install -r requirements.txt
+```
+3. git remote set-url origin
+ ```javascript
+github_username/repo_name
+git remote -v 
+```
+4. Open file in preferred program.
+ex: VSCode
+---
+### Roadmap
+Notebooks
+- Appalachian_Basin_Earthquakes.ipynb
+    - Used to explore seismic events in the Appalachian Basin Region.
+- Ok_Region_Earthquakes.ipynb
+    - Used to explore seismic events in the Oklahoma Region.
+- Ok_Region_Wells.ipynb
+    - Used to explore injection wells within the state of Oklahoma.
+- database.ipynb
+    - SQL database used to explore connections between Oklahoma seismic events and Oklahoma injection wells.
+    
+Data
+ - CSV's used and created.
 
+Plots
+- Images rendered from data.
 ---
 ### Examples
 
+Showing similarities of seismic events in different regions:
+
+![alt text](plots/NumberOfSeismicEventsPerYear_AppalachianRegion.png)
+![alt text](plots/NumberOfSeismicEventsPerYear_OKRegion.png)
 ---
 ### Data Sources
 1. earthquakes.csv
