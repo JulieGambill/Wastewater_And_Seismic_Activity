@@ -20,8 +20,21 @@ pip install -r requirements.txt
 github_username/repo_name
 git remote -v 
 ```
-4. Open file in preferred program.
-ex: VSCode
+4. Set up virtual environment.
+
+    -For Mac:
+    ```javascript
+        python3 -m venv myenv
+
+        source myenv/bin/activate
+    ```
+    For Windows:
+    ``` javascript
+        python -m venv myenv
+
+        myenv/Scripts/activate
+    ```
+    5. Open in VSCode, Jupyter Notebooks, or Jupyter Labs
 ---
 ### Roadmap
 Notebooks
@@ -31,6 +44,8 @@ Notebooks
     - Used to explore seismic events in the Oklahoma Region.
 - Ok_Region_Wells.ipynb
     - Used to explore injection wells within the state of Oklahoma.
+    
+SQL Database
 - database.ipynb
     - SQL database used to explore connections between Oklahoma seismic events and Oklahoma injection wells.
     
