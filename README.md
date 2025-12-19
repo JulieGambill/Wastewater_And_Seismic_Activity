@@ -44,7 +44,7 @@ Notebooks
     - Used to explore seismic events in the Oklahoma Region.
 - Ok_Region_Wells.ipynb
     - Used to explore injection wells within the state of Oklahoma.
-    
+
 SQL Database
 - database.ipynb
     - SQL database used to explore connections between Oklahoma seismic events and Oklahoma injection wells.
@@ -61,6 +61,11 @@ Showing similarities of seismic events in different regions:
 
 ![alt text](plots/NumberOfSeismicEventsPerYear_AppalachianRegion.png)
 ![alt text](plots/NumberOfSeismicEventsPerYear_OKRegion.png)
+
+---
+### Summary
+
+After viewing the charts above it is clear there is a direct correlation between wastewater injection wells and increases in seismic activity in those areas. Increases in the amount of wells approved per year effects the number of man-made earthquakes per year.
 ---
 ### Data Sources
 1. earthquakes.csv
